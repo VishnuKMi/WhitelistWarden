@@ -1,6 +1,6 @@
 <!-- # Whitelist-Dapp<img width="938" alt="Screenshot 2023-03-08 070958" src="https://user-images.githubusercontent.com/40514053/223598933-d3997a72-59f7-485f-9b5a-df91309385a7.png"> -->
 
-# Sample Hardhat Project
+# WhitelistWarden
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
