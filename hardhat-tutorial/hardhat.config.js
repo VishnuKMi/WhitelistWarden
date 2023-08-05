@@ -1,16 +1,16 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config({ path : ".env"});
+require('@nomicfoundation/hardhat-toolbox')
+require('dotenv').config({ path: '.env' })
 
-const QUICKNODE_HTTP_URL = process.env.QUICKNODE_HTTP_URL;
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const INFURA_HTTP_URL = process.env.INFURA_HTTP_URL
+const PRIVATE_KEY = process.env.PRIVATE_KEY
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.18",
+  solidity: '0.8.18',
   networks: {
-    goerli: {
-      url: QUICKNODE_HTTP_URL,
-      accounts: [PRIVATE_KEY],
-    },
-  },
-};
+    sepolia: {
+      url: INFURA_HTTP_URL,
+      accounts: [PRIVATE_KEY]
+    }
+  }
+}
